@@ -127,6 +127,33 @@ banking\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\banking.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\banking.dir\build
 .PHONY : banking\fast
 
+Account.obj: Account.cpp.obj
+
+.PHONY : Account.obj
+
+# target to build an object file
+Account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\banking.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\banking.dir\Account.cpp.obj
+.PHONY : Account.cpp.obj
+
+Account.i: Account.cpp.i
+
+.PHONY : Account.i
+
+# target to preprocess a source file
+Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\banking.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\banking.dir\Account.cpp.i
+.PHONY : Account.cpp.i
+
+Account.s: Account.cpp.s
+
+.PHONY : Account.s
+
+# target to generate assembly for a file
+Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\banking.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\banking.dir\Account.cpp.s
+.PHONY : Account.cpp.s
+
 checking.obj: checking.cpp.obj
 
 .PHONY : checking.obj
@@ -244,6 +271,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... banking
+	@echo ... Account.obj
+	@echo ... Account.i
+	@echo ... Account.s
 	@echo ... checking.obj
 	@echo ... checking.i
 	@echo ... checking.s

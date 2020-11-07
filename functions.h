@@ -8,7 +8,7 @@
 bool pinCheck();
 int menu();
 int accountType();
-bool anotherTransaction();
+
 
 
 
