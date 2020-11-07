@@ -6,18 +6,12 @@
 #define BANKING_SAVINGS_H
 
 
-class Savings {
+#include "Account.h"
 
-    private:
-        float balance;
+class Savings: public Account {
 
-    public:
-        Savings();
-        Savings(float balance);
-        void deposit();
-        void withdrawal();
-        float getBalance();
-        void Savings::toString();
+public:
+    Savings (float balance);
 
 };
 

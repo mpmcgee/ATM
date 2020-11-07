@@ -28,7 +28,7 @@ int menu(){
     int selection;
 
     std::cout << "1. Deposit\n2. Withdrawal\n3. Check Balance\n";
-    std::cout << "Please make a selection: ";
+    std::cout << "Select function:";
 
     std::cin >> selection;
 
@@ -41,7 +41,7 @@ int accountType(){
     int selection;
 
     std::cout << "1. Checking\n2. Savings\n";
-    std::cout << "Please make a selection: ";
+    std::cout << "Select account type:";
 
     std::cin >> selection;
 

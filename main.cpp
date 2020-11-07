@@ -1,8 +1,12 @@
 #include <iostream>
 #include <string>
+#include "Account.h"
 #include "checking.h"
 #include "savings.h"
 #include "functions.h"
+
+
+//taskkill /F /IM banking.exe
 
 int main() {
 

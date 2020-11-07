@@ -4,19 +4,12 @@
 
 #ifndef BANKING_CHECKING_H
 #define BANKING_CHECKING_H
+#include "Account.h"
 
-class Checking{
-private:
-    float balance;
+class Checking: public Account {
 
 public:
-    Checking();
-    Checking(float balance);
-    void deposit();
-    void withdrawal();
-    float getBalance();
-    void Checking::toString();
-
+    Checking (float balance);
 
 };
 

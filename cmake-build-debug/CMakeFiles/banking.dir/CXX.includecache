@@ -6,21 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Veteran/CLionProjects/banking/checking.h
-
-C:/Users/Veteran/CLionProjects/banking/functions.h
-
-C:/Users/Veteran/CLionProjects/banking/main.cpp
+C:/Users/Veteran/CLionProjects/banking/functions.cpp
 iostream
 -
 string
 -
-checking.h
-C:/Users/Veteran/CLionProjects/banking/checking.h
-savings.h
-C:/Users/Veteran/CLionProjects/banking/savings.h
-functions.h
-C:/Users/Veteran/CLionProjects/banking/functions.h
-
-C:/Users/Veteran/CLionProjects/banking/savings.h
 
